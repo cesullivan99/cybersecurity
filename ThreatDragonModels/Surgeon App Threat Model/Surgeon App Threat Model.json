@@ -48,105 +48,6 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "7a8e0ca4-1699-4d78-8095-86aeaab0857d",
-            "source": {
-              "x": 140,
-              "y": 485
-            },
-            "target": {
-              "cell": "88b6524e-d365-486a-a8ef-b2f9f72f5314"
-            },
-            "vertices": [
-              {
-                "x": 420,
-                "y": 450
-              }
-            ],
-            "labels": [
-              "Data Flow"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "fdcd05c5-59dc-4919-b255-4d3f9b763e39",
-            "source": {
-              "x": 504,
-              "y": 263
-            },
-            "target": {
-              "x": 140,
-              "y": 450
-            },
-            "vertices": [
-              {
-                "x": 250,
-                "y": 330
-              }
-            ],
-            "labels": [
-              "Data Flow"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
             "id": "cf81d6f1-dcf8-4cef-bbcb-eb354fe776b5",
             "source": {
               "x": 270,
@@ -163,10 +64,6 @@
               {
                 "x": 430,
                 "y": 80
-              },
-              {
-                "x": 460,
-                "y": 120
               }
             ],
             "labels": [
@@ -243,7 +140,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Surgical commands\n",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -254,14 +151,35 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "ee2a42e0-e5f3-4cbd-a084-abfb0a936f41",
+            "id": "7a8e0ca4-1699-4d78-8095-86aeaab0857d",
             "source": {
-              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+              "x": 140,
+              "y": 485
             },
             "target": {
-              "x": -50,
-              "y": 110
-            }
+              "cell": "88b6524e-d365-486a-a8ef-b2f9f72f5314"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 485
+              },
+              {
+                "x": 420,
+                "y": 450
+              },
+              {
+                "x": 480,
+                "y": 360
+              },
+              {
+                "x": 520,
+                "y": 310
+              }
+            ],
+            "labels": [
+              "Surgical commands\n"
+            ]
           },
           {
             "shape": "flow",
@@ -283,7 +201,103 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Descriptive data of surgery\n",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "3fc51092-8131-45c0-a9b7-d1a3ded0498a",
+            "source": {
+              "x": 500,
+              "y": 256
+            },
+            "target": {
+              "cell": "6123b853-9587-4852-9e45-3b2ae4820fb3"
+            },
+            "labels": [
+              "Descriptive data of surgery\n"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Surgical commands input",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "73d668e6-e7fd-43ba-92d8-97a92e62af70",
+            "source": {
+              "x": -280,
+              "y": 510
+            },
+            "target": {
+              "cell": "6123b853-9587-4852-9e45-3b2ae4820fb3"
+            },
+            "vertices": [
+              {
+                "x": -260,
+                "y": 530
+              },
+              {
+                "x": -60,
+                "y": 580
+              }
+            ],
+            "labels": [
+              "Surgical commands input"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Visual depiction of surgery",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -299,9 +313,18 @@
               "cell": "6123b853-9587-4852-9e45-3b2ae4820fb3"
             },
             "target": {
-              "x": -150,
-              "y": 460
-            }
+              "x": -260,
+              "y": 450
+            },
+            "labels": [
+              "Visual depiction of surgery"
+            ],
+            "vertices": [
+              {
+                "x": -80,
+                "y": 380
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -323,7 +346,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "actions for robot \n",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -334,19 +357,71 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "73d668e6-e7fd-43ba-92d8-97a92e62af70",
+            "id": "ee2a42e0-e5f3-4cbd-a084-abfb0a936f41",
             "source": {
-              "x": -157,
-              "y": 500
+              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
             },
             "target": {
-              "cell": "6123b853-9587-4852-9e45-3b2ae4820fb3"
+              "x": -220,
+              "y": 70
             },
             "vertices": [
               {
-                "x": -60,
-                "y": 580
+                "x": -70,
+                "y": 50
               }
+            ],
+            "labels": [
+              "actions for robot \n"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Information about state of surgery",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "128bf07c-49d3-4019-bab4-5a7ccf706770",
+            "source": {
+              "x": -210,
+              "y": 150
+            },
+            "target": {
+              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+            },
+            "vertices": [
+              {
+                "x": -70,
+                "y": 170
+              }
+            ],
+            "labels": [
+              "Information about state of surgery"
             ]
           },
           {
@@ -385,8 +460,8 @@
           },
           {
             "position": {
-              "x": -270,
-              "y": 440
+              "x": -380,
+              "y": 450
             },
             "size": {
               "width": 112.5,
@@ -420,7 +495,7 @@
           {
             "position": {
               "x": 20,
-              "y": -10
+              "y": -40
             },
             "size": {
               "width": 290,
@@ -453,8 +528,8 @@
           },
           {
             "position": {
-              "x": -170,
-              "y": 90
+              "x": -340,
+              "y": 40
             },
             "size": {
               "width": 112.5,
@@ -477,7 +552,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Robot",
-              "description": "",
+              "description": "robot",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
@@ -496,7 +571,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Surgeon UI\n"
+                "text": "Surgeon GUI\n"
               },
               "body": {
                 "stroke": "#333333",
@@ -510,11 +585,45 @@
             "zIndex": 17,
             "data": {
               "type": "tm.Process",
-              "name": "Surgeon UI\n",
+              "name": "Surgeon GUI\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -340,
+              "y": 130
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Camera/sensors\n\n"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "50c829b6-1dd8-40b7-a7b6-46b6de3bd162",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Camera/sensors\n\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
             }
