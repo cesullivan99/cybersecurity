@@ -49,6 +49,9 @@
               "threats": []
             },
             "id": "73d668e6-e7fd-43ba-92d8-97a92e62af70",
+            "labels": [
+              "Surgical commands input"
+            ],
             "source": {
               "x": -280,
               "y": 510
@@ -65,9 +68,6 @@
                 "x": -60,
                 "y": 580
               }
-            ],
-            "labels": [
-              "Surgical commands input"
             ]
           },
           {
@@ -102,6 +102,9 @@
               "threats": []
             },
             "id": "2bedb9db-44b4-40f0-b244-f68fa2cb1bcc",
+            "labels": [
+              "Visual depiction of surgery"
+            ],
             "source": {
               "cell": "6123b853-9587-4852-9e45-3b2ae4820fb3"
             },
@@ -109,9 +112,6 @@
               "x": -260,
               "y": 450
             },
-            "labels": [
-              "Visual depiction of surgery"
-            ],
             "vertices": [
               {
                 "x": -80,
@@ -151,6 +151,9 @@
               "threats": []
             },
             "id": "ee2a42e0-e5f3-4cbd-a084-abfb0a936f41",
+            "labels": [
+              "actions for robot \n"
+            ],
             "source": {
               "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
             },
@@ -163,9 +166,6 @@
                 "x": -70,
                 "y": 50
               }
-            ],
-            "labels": [
-              "actions for robot \n"
             ]
           },
           {
@@ -200,6 +200,9 @@
               "threats": []
             },
             "id": "128bf07c-49d3-4019-bab4-5a7ccf706770",
+            "labels": [
+              "State of surgery"
+            ],
             "source": {
               "x": -210,
               "y": 150
@@ -216,9 +219,6 @@
                 "x": -70,
                 "y": 170
               }
-            ],
-            "labels": [
-              "State of surgery"
             ]
           },
           {
@@ -253,6 +253,9 @@
               "threats": []
             },
             "id": "2b961fb2-91e2-44d0-9c9f-289bae68ff07",
+            "labels": [
+              "State of surgery"
+            ],
             "source": {
               "x": -547,
               "y": 100
@@ -266,9 +269,6 @@
                 "x": -480,
                 "y": 180
               }
-            ],
-            "labels": [
-              "State of surgery"
             ]
           },
           {
@@ -303,15 +303,15 @@
               "threats": []
             },
             "id": "3fc51092-8131-45c0-a9b7-d1a3ded0498a",
+            "labels": [
+              "Descriptive data of surgery\n"
+            ],
             "source": {
               "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
             },
             "target": {
               "cell": "6123b853-9587-4852-9e45-3b2ae4820fb3"
             },
-            "labels": [
-              "Descriptive data of surgery\n"
-            ],
             "vertices": [
               {
                 "x": 360,
@@ -355,6 +355,9 @@
               "threats": []
             },
             "id": "1bf4f744-de16-4e8a-8229-a9356d268cf2",
+            "labels": [
+              "Surgical commands"
+            ],
             "source": {
               "x": 140,
               "y": 450
@@ -362,9 +365,6 @@
             "target": {
               "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
             },
-            "labels": [
-              "Surgical commands"
-            ],
             "vertices": [
               {
                 "x": 300,
@@ -404,6 +404,9 @@
               "threats": []
             },
             "id": "714a23b5-bb2f-4923-acad-3110abe0d13c",
+            "labels": [
+              "Surgical actions\n"
+            ],
             "source": {
               "x": -350,
               "y": 70
@@ -421,9 +424,6 @@
                 "x": -480,
                 "y": 30
               }
-            ],
-            "labels": [
-              "Surgical actions\n"
             ]
           },
           {
@@ -458,6 +458,9 @@
               "threats": []
             },
             "id": "2e1c9c8e-c358-48f0-8e21-4899fabe7005",
+            "labels": [
+              "Auth credentials\n"
+            ],
             "source": {
               "cell": "29b11cda-e770-4a0b-affd-055d24eea60b"
             },
@@ -477,9 +480,6 @@
                 "x": -570,
                 "y": 580
               }
-            ],
-            "labels": [
-              "Auth credentials\n"
             ]
           },
           {
@@ -514,15 +514,15 @@
               "threats": []
             },
             "id": "be0b97dc-77e9-49fe-886c-d8f1d8a70936",
+            "labels": [
+              "Access granted"
+            ],
             "source": {
               "cell": "1217d35a-3e14-4750-b31c-e49793fdad89"
             },
             "target": {
               "cell": "29b11cda-e770-4a0b-affd-055d24eea60b"
-            },
-            "labels": [
-              "Access granted"
-            ]
+            }
           },
           {
             "shape": "trust-broundary-curve",
@@ -575,6 +575,9 @@
               "hasOpenThreats": false
             },
             "id": "f87a7f18-733b-4de6-9e08-31310fcc4a8d",
+            "labels": [
+              "HTTP\n"
+            ],
             "source": {
               "x": 330,
               "y": -350
@@ -591,9 +594,6 @@
                 "x": 300,
                 "y": -40
               }
-            ],
-            "labels": [
-              "HTTP\n"
             ]
           },
           {
@@ -617,6 +617,9 @@
               "hasOpenThreats": false
             },
             "id": "5ed0aeca-e024-4634-a2fb-8540f188bc6c",
+            "labels": [
+              "HTTP\n"
+            ],
             "source": {
               "x": 250,
               "y": 20
@@ -630,10 +633,151 @@
                 "x": 330,
                 "y": 100
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "SQL query",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "cb6cc951-da84-4aa0-84c5-9d6475fcbf88",
+            "source": {
+              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+            },
+            "target": {
+              "x": 930,
+              "y": -430
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": -400
+              },
+              {
+                "x": 740,
+                "y": -400
+              },
+              {
+                "x": 880,
+                "y": -430
+              }
             ],
             "labels": [
-              "HTTP\n"
+              "SQL query"
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Patient data\n",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "a798ce3d-fd63-4fa6-a7b4-7a38e819bfd5",
+            "source": {
+              "x": 1060,
+              "y": -360
+            },
+            "target": {
+              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+            },
+            "vertices": [
+              {
+                "x": 1060,
+                "y": -330
+              },
+              {
+                "x": 1020,
+                "y": -280
+              },
+              {
+                "x": 860,
+                "y": -220
+              }
+            ],
+            "labels": [
+              "Patient data\n"
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "0676ab0c-92ff-40c4-b02f-c7abf7c1e160",
+            "source": {
+              "x": 519,
+              "y": -500
+            },
+            "target": {
+              "x": 770,
+              "y": -60
+            }
           },
           {
             "position": {
@@ -656,8 +800,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "29b11cda-e770-4a0b-affd-055d24eea60b",
             "zIndex": 14,
+            "id": "29b11cda-e770-4a0b-affd-055d24eea60b",
             "data": {
               "type": "tm.Actor",
               "name": "Surgeon\n",
@@ -690,8 +834,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "1681ffb2-1d3d-486b-ab7a-758d7c1542df",
             "zIndex": 15,
+            "id": "1681ffb2-1d3d-486b-ab7a-758d7c1542df",
             "data": {
               "type": "tm.Process",
               "name": "Server",
@@ -724,8 +868,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "6123b853-9587-4852-9e45-3b2ae4820fb3",
             "zIndex": 17,
+            "id": "6123b853-9587-4852-9e45-3b2ae4820fb3",
             "data": {
               "type": "tm.Process",
               "name": "Surgeon GUI\n",
@@ -758,8 +902,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "50c829b6-1dd8-40b7-a7b6-46b6de3bd162",
             "zIndex": 18,
+            "id": "50c829b6-1dd8-40b7-a7b6-46b6de3bd162",
             "data": {
               "type": "tm.Actor",
               "name": "Camera/sensors\n\n",
@@ -792,8 +936,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "dc9c9e73-eccc-420b-a6a1-eeaae2e2e747",
             "zIndex": 19,
+            "id": "dc9c9e73-eccc-420b-a6a1-eeaae2e2e747",
             "data": {
               "type": "tm.Actor",
               "name": "Patient",
@@ -826,8 +970,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "2534412f-f69e-41c4-af1b-33c4aa6df17e",
             "zIndex": 20,
+            "id": "2534412f-f69e-41c4-af1b-33c4aa6df17e",
             "data": {
               "type": "tm.Actor",
               "name": "Robot",
@@ -860,8 +1004,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "1217d35a-3e14-4750-b31c-e49793fdad89",
             "zIndex": 21,
+            "id": "1217d35a-3e14-4750-b31c-e49793fdad89",
             "data": {
               "type": "tm.Process",
               "name": "Authentication service",
@@ -869,6 +1013,40 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 940,
+              "y": -440
+            },
+            "size": {
+              "width": 200,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "Patient database\n"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "77379d0a-8984-4e22-856d-309a15b21008",
+            "zIndex": 22,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Patient database\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
             }
