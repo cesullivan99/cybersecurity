@@ -1,0 +1,16 @@
+{
+  "version": "2.0.8",
+  "summary": {
+    "title": "Surgeon App Threat Model",
+    "owner": "",
+    "description": "This system allows a surgeon in one city to assist a surgeon in another city with an operation, via internet connection. ",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
