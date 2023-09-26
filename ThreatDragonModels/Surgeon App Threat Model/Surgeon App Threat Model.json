@@ -65,7 +65,15 @@
                 "y": 530
               },
               {
+                "x": -230,
+                "y": 530
+              },
+              {
                 "x": -60,
+                "y": 580
+              },
+              {
+                "x": -30,
                 "y": 580
               }
             ]
@@ -139,108 +147,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "actions for robot \n",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "ee2a42e0-e5f3-4cbd-a084-abfb0a936f41",
-            "labels": [
-              "actions for robot \n"
-            ],
-            "source": {
-              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
-            },
-            "target": {
-              "x": -220,
-              "y": 70
-            },
-            "vertices": [
-              {
-                "x": -70,
-                "y": 50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "State of surgery",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "128bf07c-49d3-4019-bab4-5a7ccf706770",
-            "labels": [
-              "State of surgery"
-            ],
-            "source": {
-              "x": -210,
-              "y": 150
-            },
-            "target": {
-              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
-            },
-            "vertices": [
-              {
-                "x": -120,
-                "y": 170
-              },
-              {
-                "x": -70,
-                "y": 170
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "State of surgery",
               "description": "",
               "outOfScope": false,
@@ -268,107 +174,6 @@
               {
                 "x": -480,
                 "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Descriptive data of surgery\n",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "3fc51092-8131-45c0-a9b7-d1a3ded0498a",
-            "labels": [
-              "Descriptive data of surgery\n"
-            ],
-            "source": {
-              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
-            },
-            "target": {
-              "cell": "6123b853-9587-4852-9e45-3b2ae4820fb3"
-            },
-            "vertices": [
-              {
-                "x": 360,
-                "y": -30
-              },
-              {
-                "x": 250,
-                "y": 90
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Surgical commands",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "1bf4f744-de16-4e8a-8229-a9356d268cf2",
-            "labels": [
-              "Surgical commands"
-            ],
-            "source": {
-              "x": 140,
-              "y": 450
-            },
-            "target": {
-              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
-            },
-            "vertices": [
-              {
-                "x": 300,
-                "y": 330
               }
             ]
           },
@@ -425,134 +230,6 @@
                 "y": 30
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Auth credentials\n",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "2e1c9c8e-c358-48f0-8e21-4899fabe7005",
-            "labels": [
-              "Auth credentials\n"
-            ],
-            "source": {
-              "cell": "29b11cda-e770-4a0b-affd-055d24eea60b"
-            },
-            "target": {
-              "cell": "1217d35a-3e14-4750-b31c-e49793fdad89"
-            },
-            "vertices": [
-              {
-                "x": -530,
-                "y": 470
-              },
-              {
-                "x": -570,
-                "y": 510
-              },
-              {
-                "x": -570,
-                "y": 580
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Access granted",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "be0b97dc-77e9-49fe-886c-d8f1d8a70936",
-            "labels": [
-              "Access granted"
-            ],
-            "source": {
-              "cell": "1217d35a-3e14-4750-b31c-e49793fdad89"
-            },
-            "target": {
-              "cell": "29b11cda-e770-4a0b-affd-055d24eea60b"
-            }
-          },
-          {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "strokeDasharray": "7 5",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "f4483441-20f3-4126-ad0c-73325306669b",
-            "source": {
-              "x": -575,
-              "y": 440
-            },
-            "target": {
-              "x": -320,
-              "y": 610
-            }
           },
           {
             "shape": "trust-broundary-curve",
@@ -655,7 +332,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "SQL query",
+              "name": "Access granted",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -666,37 +343,33 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "cb6cc951-da84-4aa0-84c5-9d6475fcbf88",
+            "id": "be0b97dc-77e9-49fe-886c-d8f1d8a70936",
+            "labels": [
+              "Access granted"
+            ],
             "source": {
-              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+              "cell": "1217d35a-3e14-4750-b31c-e49793fdad89"
             },
             "target": {
-              "x": 930,
-              "y": -430
+              "cell": "29b11cda-e770-4a0b-affd-055d24eea60b"
             },
             "vertices": [
               {
-                "x": 680,
-                "y": -400
+                "x": -410,
+                "y": 660
               },
               {
-                "x": 740,
-                "y": -400
-              },
-              {
-                "x": 880,
-                "y": -430
+                "x": -400,
+                "y": 650
               }
-            ],
-            "labels": [
-              "SQL query"
             ]
           },
           {
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -712,7 +385,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Patient data\n",
+              "name": "Auth credentials\n",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -720,33 +393,304 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "a0b69ea6-3933-4efd-8aa1-52da6690186e",
+                  "title": "Bad actor gets real surgeon login credentials",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "If the transmission of login credentials is insecure, a bad actor could intercept them here. Then, the bad actor could impersonate a surgeon, which could have catastrophic consequences.",
+                  "mitigation": "Transmit login credentials in an encrypted manner, and only through secure channels.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ]
             },
-            "id": "a798ce3d-fd63-4fa6-a7b4-7a38e819bfd5",
+            "id": "2e1c9c8e-c358-48f0-8e21-4899fabe7005",
+            "labels": [
+              "Auth credentials\n"
+            ],
             "source": {
-              "x": 1060,
-              "y": -360
+              "cell": "29b11cda-e770-4a0b-affd-055d24eea60b"
+            },
+            "target": {
+              "cell": "1217d35a-3e14-4750-b31c-e49793fdad89"
+            },
+            "vertices": [
+              {
+                "x": -530,
+                "y": 470
+              },
+              {
+                "x": -570,
+                "y": 510
+              },
+              {
+                "x": -570,
+                "y": 600
+              },
+              {
+                "x": -540,
+                "y": 650
+              },
+              {
+                "x": -540,
+                "y": 670
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "actions for robot \n",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "f4acccb8-e4db-4403-aaa7-f6b0b481a70e",
+                  "title": "Bad actor modifies actions for robot",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "If a bad actor has access to this data flow, they can modify or introduce their own actions for the surgical robot to take. For obvious reasons, this is dangerous.",
+                  "mitigation": "Make the data flow as secure as possible, ensuring the use of HTTPS and other authentication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "1921f894-e937-4ab6-965a-f814ed038c70",
+                  "title": "Bad actor intercepts future actions of robot",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "If a bad actor has access to this data flow, they can see what actions the robot will perform next.",
+                  "mitigation": "Make the data flow as secure as possible, using HTTPS and ensuring authentication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "ee2a42e0-e5f3-4cbd-a084-abfb0a936f41",
+            "labels": [
+              "actions for robot \n"
+            ],
+            "source": {
+              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+            },
+            "target": {
+              "x": -220,
+              "y": 70
+            },
+            "vertices": [
+              {
+                "x": 130,
+                "y": -50
+              },
+              {
+                "x": -70,
+                "y": 50
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "State of surgery",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "86637476-9b4d-4fbb-b8e4-6cfa228abe3f",
+                  "title": "Bad actor modifies state of surgery data",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "A bad actor could modify data about the state of a surgery, leading the surgeon to believe the patient is in a different state than they actually are in.",
+                  "mitigation": "Use secure channels for data transmission. HTTPS will be best, and encrypting the data will be helpful too.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "58feff1d-9ba9-478c-82cb-31c32de4e3d5",
+                  "title": "Bad actor discovers state of surgery",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "By intercepting this data flow, a bad actor could learn what the state of the surgery is.",
+                  "mitigation": "Make data transmission as secure as possible, using HTTPS and encryption.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "128bf07c-49d3-4019-bab4-5a7ccf706770",
+            "labels": [
+              "State of surgery"
+            ],
+            "source": {
+              "x": -210,
+              "y": 150
             },
             "target": {
               "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
             },
             "vertices": [
               {
-                "x": 1060,
-                "y": -330
+                "x": -120,
+                "y": 170
               },
               {
-                "x": 1020,
-                "y": -280
+                "x": -70,
+                "y": 170
               },
               {
-                "x": 860,
-                "y": -220
+                "x": 40,
+                "y": 90
+              },
+              {
+                "x": 150,
+                "y": 20
               }
-            ],
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Descriptive data of surgery\n",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "57638b6a-d770-49ae-9826-ff05112c27de",
+                  "title": "Bad actor modifies surgery data",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "A bad actor could modify data about the state of a surgery.",
+                  "mitigation": "Ensure the data flow is as secure as possible (using at least HTTPS) and encrypted.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "e7288cf6-56d0-4442-9d1e-b5ff8e70eb64",
+                  "title": "Bad actor intercepts surgery data",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "A bad actor could glean information about the state of the surgery.",
+                  "mitigation": "Protect data flow as much as possible by using HTTPS and encryption.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "3fc51092-8131-45c0-a9b7-d1a3ded0498a",
             "labels": [
-              "Patient data\n"
+              "Descriptive data of surgery\n"
+            ],
+            "source": {
+              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+            },
+            "target": {
+              "cell": "6123b853-9587-4852-9e45-3b2ae4820fb3"
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": -30
+              },
+              {
+                "x": 250,
+                "y": 90
+              }
             ]
           },
           {
@@ -764,20 +708,100 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "",
+              "name": "HTTP",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
-            "id": "0676ab0c-92ff-40c4-b02f-c7abf7c1e160",
+            "id": "f4483441-20f3-4126-ad0c-73325306669b",
             "source": {
-              "x": 519,
-              "y": -500
+              "x": -575,
+              "y": 440
             },
             "target": {
-              "x": 770,
-              "y": -60
-            }
+              "x": -320,
+              "y": 610
+            },
+            "labels": [
+              "HTTP"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Surgical commands",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "52c8dcd9-7bf5-490e-9867-7d7af248a5bc",
+                  "title": "Bad actor modifies commands",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "If a bad actor has access to this data flow, they can modify the commands sent by the surgeon to the robot.",
+                  "mitigation": "Ensure that data is sent via a secure method, like HTTPS.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "6ebfa2c0-8851-4dd6-aabf-10de35298c3a",
+                  "title": "Bad actor intercepts commands",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "If a bad actor intercepts this data flow, they can tell what commands the surgeon is sending to the robot.",
+                  "mitigation": "Use a secure method of communication, like HTTPS.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "1bf4f744-de16-4e8a-8229-a9356d268cf2",
+            "labels": [
+              "Surgical commands"
+            ],
+            "source": {
+              "x": 140,
+              "y": 450
+            },
+            "target": {
+              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 330
+              }
+            ]
           },
           {
             "position": {
@@ -827,8 +851,8 @@
                 "text": "Server"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -843,8 +867,35 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "d83a9c73-b89f-42fc-b5a8-beb063f7445f",
+                  "title": "DOS attack",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "If a bad actor can attack the server (via DDOS or some other attack), they can shut this service down.",
+                  "mitigation": "Increase automated security protocols, such as detecting abnormal traffic and shutting it down. Diligently implement monitoring solutions for the server.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "dbc0a75a-6c8d-43ce-aac8-06ec5188045b",
+                  "title": "Bad actor modifies data",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "If a bad actor has access to the server, they can modify any of the data in the application traveling in any direction. ",
+                  "mitigation": "Ensure the server is extremely secure, which is most easily done by using up-to-date security software.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -997,8 +1048,8 @@
                 "text": "Authentication service"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1013,42 +1064,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 940,
-              "y": -440
-            },
-            "size": {
-              "width": 200,
-              "height": 70
-            },
-            "attrs": {
-              "text": {
-                "text": "Patient database\n"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "id": "77379d0a-8984-4e22-856d-309a15b21008",
-            "zIndex": 22,
-            "data": {
-              "type": "tm.Actor",
-              "name": "Patient database\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "49427b81-475b-4441-95a7-866539f22de1",
+                  "title": "Malicious actor authentication",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "If a malicious actor tampers with authentication, they can pretend to be the real surgeon and cause major problems. ",
+                  "mitigation": "Make the authentication as secure as possible, using at least two-facor auth. Some sort of biometric authentication could also be a good idea.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ]
             }
           }
         ]
@@ -1056,6 +1087,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 15
   }
 }
