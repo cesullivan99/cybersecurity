@@ -417,9 +417,107 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Auth credentials\n",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "2e1c9c8e-c358-48f0-8e21-4899fabe7005",
+            "source": {
+              "cell": "29b11cda-e770-4a0b-affd-055d24eea60b"
+            },
+            "target": {
+              "cell": "1217d35a-3e14-4750-b31c-e49793fdad89"
+            },
+            "vertices": [
+              {
+                "x": -530,
+                "y": 470
+              },
+              {
+                "x": -590,
+                "y": 440
+              },
+              {
+                "x": -570,
+                "y": 360
+              }
+            ],
+            "labels": [
+              "Auth credentials\n"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Access granted",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "be0b97dc-77e9-49fe-886c-d8f1d8a70936",
+            "source": {
+              "cell": "1217d35a-3e14-4750-b31c-e49793fdad89"
+            },
+            "target": {
+              "cell": "29b11cda-e770-4a0b-affd-055d24eea60b"
+            },
+            "labels": [
+              "Access granted"
+            ]
+          },
+          {
             "position": {
               "x": -380,
-              "y": 450
+              "y": 440
             },
             "size": {
               "width": 112.5,
@@ -486,8 +584,8 @@
           },
           {
             "position": {
-              "x": -19.99999999999993,
-              "y": 400
+              "x": -20,
+              "y": 390
             },
             "size": {
               "width": 160,
@@ -616,6 +714,40 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -547.5,
+              "y": 240
+            },
+            "size": {
+              "width": 230,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Authentication service"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "1217d35a-3e14-4750-b31c-e49793fdad89",
+            "zIndex": 21,
+            "data": {
+              "type": "tm.Process",
+              "name": "Authentication service",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
             }
