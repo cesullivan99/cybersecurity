@@ -539,100 +539,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "HTTP\n",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "5e5eba3e-5589-488c-b414-121964b17375",
-            "source": {
-              "x": -100,
-              "y": -10
-            },
-            "target": {
-              "x": -100,
-              "y": 260
-            },
-            "vertices": [
-              {
-                "x": -130,
-                "y": -40
-              },
-              {
-                "x": 50,
-                "y": 160
-              }
-            ],
-            "labels": [
-              "HTTP\n"
-            ]
-          },
-          {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "strokeDasharray": "7 5",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "HTTP\n",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "036c5c22-f940-4964-b1d1-4624985eadea",
-            "source": {
-              "x": 50,
-              "y": 280
-            },
-            "target": {
-              "x": 470,
-              "y": 380
-            },
-            "vertices": [
-              {
-                "x": 100,
-                "y": 212
-              },
-              {
-                "x": 160,
-                "y": 250
-              },
-              {
-                "x": 290,
-                "y": 250
-              },
-              {
-                "x": 290,
-                "y": 300
-              }
-            ],
-            "labels": [
-              "HTTP\n"
-            ]
-          },
-          {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "strokeDasharray": "7 5",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
               "name": "",
               "description": "",
               "isTrustBoundary": true,
@@ -649,6 +555,87 @@
             }
           },
           {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "HTTP\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "f87a7f18-733b-4de6-9e08-31310fcc4a8d",
+            "source": {
+              "x": 330,
+              "y": -350
+            },
+            "target": {
+              "cell": "1681ffb2-1d3d-486b-ab7a-758d7c1542df"
+            },
+            "vertices": [
+              {
+                "x": 260,
+                "y": -245
+              },
+              {
+                "x": 300,
+                "y": -40
+              }
+            ],
+            "labels": [
+              "HTTP\n"
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "HTTP\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "5ed0aeca-e024-4634-a2fb-8540f188bc6c",
+            "source": {
+              "x": 250,
+              "y": 20
+            },
+            "target": {
+              "x": 590,
+              "y": 60
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 100
+              }
+            ],
+            "labels": [
+              "HTTP\n"
+            ]
+          },
+          {
             "position": {
               "x": -380,
               "y": 440
@@ -659,7 +646,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Virtual surgeon\n"
+                "text": "Surgeon\n"
               },
               "body": {
                 "stroke": "#333333",
@@ -673,7 +660,7 @@
             "zIndex": 14,
             "data": {
               "type": "tm.Actor",
-              "name": "Virtual surgeon\n",
+              "name": "Surgeon\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
