@@ -311,6 +311,16 @@
             },
             "labels": [
               "Descriptive data of surgery\n"
+            ],
+            "vertices": [
+              {
+                "x": 360,
+                "y": -30
+              },
+              {
+                "x": 250,
+                "y": 90
+              }
             ]
           },
           {
@@ -460,12 +470,12 @@
                 "y": 470
               },
               {
-                "x": -590,
-                "y": 440
+                "x": -570,
+                "y": 510
               },
               {
                 "x": -570,
-                "y": 360
+                "y": 580
               }
             ],
             "labels": [
@@ -515,6 +525,130 @@
             ]
           },
           {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "HTTP\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "5e5eba3e-5589-488c-b414-121964b17375",
+            "source": {
+              "x": -100,
+              "y": -10
+            },
+            "target": {
+              "x": -100,
+              "y": 260
+            },
+            "vertices": [
+              {
+                "x": -130,
+                "y": -40
+              },
+              {
+                "x": 50,
+                "y": 160
+              }
+            ],
+            "labels": [
+              "HTTP\n"
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "HTTP\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "036c5c22-f940-4964-b1d1-4624985eadea",
+            "source": {
+              "x": 50,
+              "y": 280
+            },
+            "target": {
+              "x": 470,
+              "y": 380
+            },
+            "vertices": [
+              {
+                "x": 100,
+                "y": 212
+              },
+              {
+                "x": 160,
+                "y": 250
+              },
+              {
+                "x": 290,
+                "y": 250
+              },
+              {
+                "x": 290,
+                "y": 300
+              }
+            ],
+            "labels": [
+              "HTTP\n"
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "f4483441-20f3-4126-ad0c-73325306669b",
+            "source": {
+              "x": -575,
+              "y": 440
+            },
+            "target": {
+              "x": -320,
+              "y": 610
+            }
+          },
+          {
             "position": {
               "x": -380,
               "y": 440
@@ -550,8 +684,8 @@
           },
           {
             "position": {
-              "x": 20,
-              "y": -40
+              "x": 320,
+              "y": -330
             },
             "size": {
               "width": 290,
@@ -720,8 +854,8 @@
           },
           {
             "position": {
-              "x": -547.5,
-              "y": 240
+              "x": -590,
+              "y": 740
             },
             "size": {
               "width": 230,
